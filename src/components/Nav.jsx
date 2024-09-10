@@ -1,11 +1,6 @@
-export default function nav() {
-const styles = {
-    padding: "0%",
-    list-style-type: "none",
-    display: "flex",
-    justify-content: "space-between",
-};
-
+ 
+ 
+ function nav() {
 return (
     <nav className="Nav" style={styles} aria-label="Main Navigation" role="navigation">
         <a href="/" className="">Women's</a>
@@ -19,3 +14,4 @@ return (
 );
 }
 
+export default nav

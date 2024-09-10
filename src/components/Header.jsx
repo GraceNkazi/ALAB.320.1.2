@@ -1,14 +1,14 @@
-import Articles from "./Article";
 import Footer from "./Footer";
 import Nav from "./Nav";
 
-export default Header() {
+function Header() {
     return (
         <header>
             <Nav />
-            <Articles />
             <Footer />
         </header>
-    )
+    );
 }
 
+
+export default Header
